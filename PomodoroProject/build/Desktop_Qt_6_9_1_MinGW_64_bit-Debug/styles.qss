@@ -1,0 +1,89 @@
+/* -----------------------------
+GERAL
+----------------------------- */
+* {
+    font-family: 'Comic Sans MS', cursive;
+    color: #A68444;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+QMainWindow {
+    background-color:#000f26;
+ }
+
+/* -----------------------------
+TIMER
+----------------------------- */
+QLabel#labelTimer {
+    font-size: 70px;
+    font-weight: bold;
+    qproperty-alignment: AlignCenter;
+    margin: 15px 0;
+    color: #F2D888;
+}
+
+/* -----------------------------
+BOTÕES
+----------------------------- */
+QPushButton {
+    border-radius: 15px;
+    min-width: 80px;
+    padding: 8px 12px;
+    font-weight: bold;
+    font-size: 14px;
+    background-color: #F2D888;
+    border: 2px solid #8C512E;
+    color: #A68444;
+}
+
+QPushButton:hover {
+    background-color: #a34a02;
+    color: #f7f7e1;
+}
+
+QPushButton:pressed {
+    background-color: #A68444;
+    color:#a34a02;
+}
+
+QPushButton:disabled {
+    background-color: #d9d9d9;
+    border-color: #A0A0A0;
+    color: #FFFFFF;
+}
+
+/* -----------------------------
+BARRA DE PROGRESSO
+----------------------------- */
+QProgressBar {
+    border: 2px solid #A68444;
+    border-radius: 5px;
+    height: 15px;
+    text-align: center;
+    background: #d9d9d9;
+    color: #000000;
+}
+
+QProgressBar::chunk {
+    margin: 2px;
+}
+
+/* -----------------------------
+LABELS
+----------------------------- */
+QLabel#labelStatus {
+    font-size: 17px;
+    font-weight: bold;
+    background-color: transparent;
+    padding: 3px 8px;
+    qproperty-alignment: AlignCenter;
+    color: #d69004;
+}
+
+QLabel.counter {
+    font-size: 18px;
+    background-color: transparent;
+    padding: 5px 10px;
+    qproperty-alignment: AlignCenter;
+}

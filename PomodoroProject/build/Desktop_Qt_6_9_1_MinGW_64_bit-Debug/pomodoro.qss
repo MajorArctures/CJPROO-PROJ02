@@ -1,0 +1,43 @@
+@import "style.qss";
+
+QLabel#labelTimer {
+    color: #5693D4;
+}
+
+QPushButton {
+    background-color: #609BBF;
+    color: #EDE8A6;
+    border: 2px solid #5693D4;
+}
+
+QPushButton:hover {
+    background-color: #02544c;
+    border-color: #02544c;
+}
+
+QPushButton:pressed {
+    background-color: #013b36;
+}
+
+QPushButton:disabled {
+    background-color: #d9d9d9;
+    border-color: #A0A0A0;
+    color: #FFFFFF;
+}
+
+QProgressBar {
+    border: 2px solid #D8EBF2;
+    background: #d9d9d9;
+    color: #000530;
+}
+
+QProgressBar::chunk {
+    background-color: #5693D4;
+}
+
+QLabel#labelStatus{
+    color: #5693D4;
+}
+QLabel.counter {
+    color: #000530;
+}
